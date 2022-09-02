@@ -1,0 +1,38 @@
+.Navbar {
+  display: flex;
+  padding: 25px 0;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.Navbar .AllCatalog {
+  width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Navbar .Navigation {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+.Navbar .Logo {
+  font-family: "Playfair Display", serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 22px;
+}
+.Navbar .Account {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 15px;
+}
+
+.list {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}

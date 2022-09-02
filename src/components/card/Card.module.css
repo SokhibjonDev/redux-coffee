@@ -1,0 +1,38 @@
+.Card {
+  width: 270px;
+  height: 270px;
+  transition: 0.2s;
+  cursor: pointer;
+  background: rgba(2, 37, 2, 0.918);
+  margin-bottom: 50px;
+}
+.Card:hover {
+  box-shadow: 0 35px 10px 3px rgb(0, 36, 0);
+  transform: scale(1.05);
+}
+.Card:hover .total {
+  margin-top: -40px;
+}
+.Card:hover h1 {
+  font-size: 22px;
+}
+.Card h1,
+p {
+  font-size: 18px;
+  transition: 0.3s;
+}
+.Card .total {
+  display: flex;
+  justify-content: space-between;
+  line-height: 32px;
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 0 10px;
+  margin-top: -4px;
+  z-index: 99;
+  transition: 0.3s;
+}
+.Card img {
+  width: 270px;
+  height: 300px;
+}

@@ -1,0 +1,10 @@
+.Parner {
+  display: flex;
+  justify-content: space-between;
+  margin: 120px 0 70px;
+}
+
+.Parner img {
+  width: 370px;
+  height: 190px;
+}

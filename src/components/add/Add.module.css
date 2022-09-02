@@ -1,0 +1,27 @@
+.Add {
+  display: flex;
+}
+.Add .img {
+  width: 50%;
+  margin-bottom: -5px;
+}
+.Add .img img{
+  width: 100%;
+}
+.Add .info {
+  width: 50%;
+  padding-left: 100px;
+}
+
+.Add .info h1{
+    font-size: 50px;
+    border-left: 7px solid sienna;
+    padding-left: 10px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.Add .info p{
+    width: 700px;
+    font-size: 20px;
+    line-height: 34px;
+}

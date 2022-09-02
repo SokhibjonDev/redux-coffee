@@ -1,0 +1,13 @@
+.Footer {
+  background: black;
+}
+.Footer .AllCatalog {
+  justify-content: space-between;
+  display: flex;
+  padding: 40px 0;
+}
+.link {
+  line-height: 40px;
+  color: #fff;
+}
+  
